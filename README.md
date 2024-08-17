@@ -53,10 +53,23 @@ In this EDA step I tried to show the following requirements which a hypotherical
 - Utilize a heat map to visualize sales by days and hours
 - Implement tooltips to display detailed metrics (Sales, Orders, Quantity) when hovering over a specific day-hour
 ## SQL Data Analysis
-- To create a database
+- Create a database
 ```sql
 CREATE DATABASE coffee_sales_db;
 ```
+- Use the database
+```sql
+USE coffee_sales_db;
+```
+- Create a table
+```sql
+CREATE TABLE coffee_shop_sales;
+```
+- View the for inspection
+```sql
+SELECT * FROM coffee_shop_sales;
+```
+ 
 
 
 
