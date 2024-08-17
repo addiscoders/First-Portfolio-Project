@@ -4,5 +4,5 @@ The project aim at ....
 ### Data Source
 The data souce is ...
 ### Tools 
-- MS Excel 2019
-- MySQL
+- MS Excel 2019 - Data Cleaning
+- MySQL - Data Analysis
