@@ -1,2 +1,2 @@
-# Portfolio-Projects-of-Esayas
+# Coffee Shop Sales Analysis using MySQL
 
