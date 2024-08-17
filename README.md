@@ -1,4 +1,9 @@
 # Coffee Shop Sales Analysis 
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Explanatory Data Analysis](#explanatory-data-analysis)
 ## Project Overview
 The project aim at ....
 ## Data Source
