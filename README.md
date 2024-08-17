@@ -75,7 +75,53 @@ FROM coffee_shop_sales;
 UPDATE coffee_shop_sales
 SET transaction_date = str_to_date(transaction_date, '%d/%m/%Y');
 ```
-
+- Alter date (transaction_date) column to DATE data type
+```sql
+ALTER TABLE coffee_shop_sales
+MODIFY COLUMN transaction_date DATE;
+```
+- Covert time (transaction_time)  column to proper DATE format
+```sql
+UPDATE coffee_shop_sales
+SET transaction_time = STR_TO_DATE(transaction_time, '%H:%i:%s');
+```
+- Alter time (transaction_time) colum to DATE data type
+```sql
+ALTER TABLE coffee_shop_sales
+MODIFY COLUMN transaction_time TIME;
+```
+- Data types of different columns
+```sql
+DESCRIBE coffee_shop_sales;
+```
+- Change column name `ï»¿transaction_id` to transaction_id
+```sql
+ALTER TABLE coffee_shop_sales
+CHANGE COLUMN `ï»¿transaction_id` transaction_id INT;
+```
+- Total sales
+```sql
+SELECT ROUND(SUM(transaction_qty * unit_price)) as total_sales 
+FROM coffee_shop_sales 
+WHERE MONTH(transaction_date) = 5
+```
+- Total sales KPI - MoM difference and MoM growth
+```sql
+SELECT 
+    MONTH(transaction_date) AS month,
+    ROUND(SUM(transaction_qty * unit_price)) AS total_sales,
+    (SUM(transaction_qty * unit_price) - LAG(SUM(transaction_qty * unit_price), 1)
+    OVER (ORDER BY MONTH(transaction_date))) / LAG(SUM(transaction_qty * unit_price), 1) 
+    OVER (ORDER BY MONTH(transaction_date)) * 100 AS mom_increase_percentage
+FROM 
+    coffee_shop_sales
+WHERE 
+    MONTH(transaction_date) IN (4, 5) -- for months of April and May
+GROUP BY 
+    MONTH(transaction_date)
+ORDER BY 
+    MONTH(transaction_date);
+```
 
  
 
