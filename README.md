@@ -130,9 +130,11 @@ ORDER BY
 ```
 
 
- |Data Analystics Tech Stack|
+ 
  |--------------------------------------|
- |MS Excel|SQL|Python|R|Power BI|Tableau|
+ |Excel|SQL|
+ Python|R|Power BI|
+ |Tableau|
  |Backend Web Frameworks|
  |--------------------------------------|
  |Django|Flask|
