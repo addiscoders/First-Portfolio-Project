@@ -11,3 +11,4 @@ In this phase I performed the following tasks:
 1. Data loading and inspection
 2. Handling missing values
 3. Data formatting
+### Explanatory Data Analysis
