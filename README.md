@@ -12,3 +12,18 @@ In this phase I performed the following tasks:
 2. Handling missing values
 3. Data formatting
 ### Explanatory Data Analysis
+In this step I tried to show the following requirements which a hypotherical coffee shop owner would be interested in to have insights:
+### KPI's Requirements
+### 1. Total Sales Analysis:
+- Calculate the total sales for each month
+- Determine the month-on-month increase or decrease in sales
+- Calculate the difference in sales between the selected month and the previous month
+### 2. Total Orders Analysis:
+- Calculate the total number of orders for each month
+- Determine the month-on-month increase in the number of orders
+- Calculate the difference in the number of orders between the selected month and the previous month
+### 3. Total Quantity Sold Analysis:
+- Calculate the total quantity sold for each month
+- Determine the month-on-month increase or decrease in the total quantity sold
+- Calculate the difference in quantity sold between the selected month and the previous month
+
