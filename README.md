@@ -130,14 +130,7 @@ ORDER BY
 ```
 
 
- 
- |--------------------------------------|
- |Excel|SQL|
- Python|R|Power BI|
- |Tableau|
- |Backend Web Frameworks|
- |--------------------------------------|
- |Django|Flask|
+ |Python|R|Django|Flask|
  
  
 
