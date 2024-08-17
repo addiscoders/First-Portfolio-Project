@@ -52,7 +52,7 @@ In this EDA step I tried to show the following requirements which a hypotherical
 ### 7. Sales Analysis by Days and Hours:
 - Utilize a heat map to visualize sales by days and hours
 - Implement tooltips to display detailed metrics (Sales, Orders, Quantity) when hovering over a specific day-hour
-## SQL Data Analysis
+## PART I - SQL Data Analysis
 - Create a database
 ```sql
 CREATE DATABASE coffee_sales_db;
