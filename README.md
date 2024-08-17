@@ -13,7 +13,7 @@ In this phase I performed the following tasks:
 3. Data formatting
 ### Explanatory Data Analysis
 In this step I tried to show the following requirements which a hypotherical coffee shop owner would be interested in to have insights:
-### KPI's Requirements
+### *KPI's Requirements*
 ### 1. Total Sales Analysis:
 - Calculate the total sales for each month
 - Determine the month-on-month increase or decrease in sales
