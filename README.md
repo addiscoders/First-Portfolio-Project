@@ -103,7 +103,7 @@ CHANGE COLUMN `ï»¿transaction_id` transaction_id INT;
 ```sql
 SELECT ROUND(SUM(transaction_qty * unit_price)) as total_sales 
 FROM coffee_shop_sales 
-WHERE MONTH(transaction_date) = 5
+WHERE MONTH(transaction_date) = 5 -- For month of May
 ```
 - Total sales KPI - MoM difference and MoM growth
 ```sql
@@ -122,6 +122,7 @@ GROUP BY
 ORDER BY 
     MONTH(transaction_date);
 ```
+- 
 
  
 
