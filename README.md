@@ -1,2 +1,2 @@
-# Coffee Shop Sales Analysis using MySQL
+# 1. Coffee Shop Sales Analysis using MySQL
 
