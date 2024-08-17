@@ -130,7 +130,7 @@ ORDER BY
 ```
 
 
- |Python|R|Django|Flask|
+ 
  
  
 
