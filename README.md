@@ -65,10 +65,18 @@ USE coffee_sales_db;
 ```sql
 CREATE TABLE coffee_shop_sales;
 ```
-- View the for inspection
+- View the table for inspection
 ```sql
-SELECT * FROM coffee_shop_sales;
+SELECT *
+FROM coffee_shop_sales;
 ```
+- Covert date (transaction_date) column to proper date format
+```sql
+UPDATE coffee_shop_sales
+SET transaction_date = str_to_date(transaction_date, '%d/%m/%Y');
+```
+
+
  
 
 
