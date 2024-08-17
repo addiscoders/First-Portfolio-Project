@@ -5,7 +5,8 @@ The project aim at ....
 The data souce is Kaggle.com and can be downloaded [here](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales)
 ## Tools 
 - MS Excel 2019 - Row Data 
-- MySQL - Data Cleaning, Preparation and Analysis
+- MySQL - for Data Cleaning, Preparation and Analysis
+- Power BI - for Visualization 
 ## Data Cleaning and Preparation
 In this phase I performed the following tasks:
 1. Data loading and inspection
@@ -30,7 +31,12 @@ In this EDA step I tried to show the following requirements which a hypotherical
 ### 1. Calendar Heatmap
 - Implement a calendar heat map that dynamically adjusts based on the selected month from a slicer
 - Each day on the calendar should be color-coded to represent sales volume, with darker shades indicating higher sales
-- Implement tool tips to display detailed metrics (sales, orders, quantity) when hovering over a specific day
-  
+- Implement tool tips to display detailed metrics (Sales, Orders, Quantity) when hovering over a specific day
+### 2. Sales Analysis by Weekdays and Weekends
+- Segment sales data into weekdays and weekends to analyze performance variations
+- Provide insights into whether sales patterns differ significantly between weekdays and weekends
+### 3. Sales Analysis by Store Location
+- Visualize sales data by different store locations
+- Include month-over-month (MoM) difference metrics 
 
 
